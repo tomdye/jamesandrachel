@@ -1,3 +1,81 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #f2f2f2;
+
+  font-family: "Shadows Into Light", cursive;
+  /* font-family: "Indie Flower", cursive; */
+  font-size: 26px;
+  color: #2e2e2e;
+}
+
+img.banner {
+  width: 100%;
+  height: auto;
+}
+
+.couple {
+  width: 100%;
+  height: 400px;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.25);
+}
+
+.couple1 {
+  background-image: url("./images/couple1.jpg");
+}
+
+.couple2 {
+  background-image: url("./images/couple2.jpg");
+}
+
+.couple3 {
+  background-image: url("./images/couple3.jpg");
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Amatic SC", cursive;
+}
+
+h4 {
+  display: inline;
+  font-size: 36px;
+}
+
 h1 {
-	color: red;
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 52px;
+}
+
+h3 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+section {
+  padding: 0 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
 }
